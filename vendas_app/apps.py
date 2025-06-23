@@ -11,7 +11,6 @@ from django.apps import AppConfig
 # O nome da classe geralmente é o nome do app seguido
 # de 'Config'
 class VendasAppConfig(AppConfig):
-
     # Define o tipo de campo padrão para as chaves
     # primárias (ID) do banco de dados
     # 'BigAutoField' cria um campo automático do

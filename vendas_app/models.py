@@ -1,5 +1,6 @@
 #Criação dos modelos de dados. Cada classe vira uma tabela no banco de dados.
 # Importa o módulo models do Django, que permite criar modelos de banco de dados
+
 from django.db import models
 
 # Criação da classe Funcionario, que representa uma tabela no banco de dados
@@ -20,5 +21,5 @@ class Funcionario(models.Model):
 
     # Método especial que define como o Django vai exibir este objeto (Funcionario) no painel admin e em consultas
     def __str__(self):
-    # Retorna o nome do funcionário quando o objeto for chamado como texto
+        # Retorna o nome do funcionário quando o objeto for chamado como texto
         return self.nome
